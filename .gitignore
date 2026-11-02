@@ -1,0 +1,14 @@
+# Local deployment bundles and duplicate staging output
+/phone-test/
+/*.zip
+
+# Machine-specific one-time asset setup
+/setup-adventure.cjs
+
+# Local credentials, dependencies, and editor state
+.env
+.env.*
+node_modules/
+.DS_Store
+Thumbs.db
+.netlify/
